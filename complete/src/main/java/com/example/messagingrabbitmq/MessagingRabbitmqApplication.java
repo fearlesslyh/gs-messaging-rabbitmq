@@ -48,7 +48,7 @@ public class MessagingRabbitmqApplication {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        SpringApplication.run(MessagingRabbitmqApplication.class, args).close();
+        SpringApplication.run(MessagingRabbitmqApplication.class, args);
     }
 
 }
